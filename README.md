@@ -23,6 +23,15 @@
 * The average age of the **Top 10 female athletes** is **29.0 years**.
 * The difference between the fastest male and female marathon times is **619 seconds**.
 
+### Age Bracket Analysis
+
+* As expected, average finish times increase with age. Participants under 35 recorded the fastest average finish time of **16,242 seconds**, while runners aged **80 and above** recorded the slowest average finish time of **22,188 seconds**.
+
+* When examining trends over time, the older age groups (75–79 and 80+) exhibit noticeable year-to-year fluctuations rather than a consistent increase or decrease in performance. For example, average finish times increased between **2010 and 2011**, indicating slower performances, before improving in subsequent years. A similar pattern is observed around **2016**, where finish times worsened before improving again.
+
+* The **80+ age group recorded its slowest average finish time in 2018**, followed by an improvement in 2019. These fluctuations may be influenced by factors such as weather conditions, race-day circumstances, or differences in participant composition across years.
+
+
 ### Marathon-Level Analysis
 
 * The **Marshall University Marathon** exhibits the smallest performance gap between men and women, with a difference of only **221 seconds**.
@@ -41,6 +50,7 @@
 
 * For male participants, average finishing times generally improved between **2010 and 2014**, followed by a decline in performance (higher finishing times) between **2015 and 2017**.
 * Female participants exhibited a similar initial improvement; however, finishing times began increasing noticeably after **2014**, with a substantial increase of approximately **310 seconds**.
+* Additionally, **2017 stands out as a relatively poor performance year across multiple age groups**, with higher average finish times observed throughout the dataset. Further investigation would be required to identify the factors contributing to this trend.
 
 ## Project Status
 
@@ -52,3 +62,5 @@ Current progress:
 - Duplicate records removed
 - Initial EDA completed
 - Further analysis and visualizations in progress
+
+
