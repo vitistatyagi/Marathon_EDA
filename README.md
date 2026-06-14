@@ -37,6 +37,28 @@
 * The **Marshall University Marathon** exhibits the smallest performance gap between men and women, with a difference of only **221 seconds**.
 * The **Mo' Cowbell Marathon** ranks second, with a gap of **355 seconds**.
 
+
+### Time Trends by Gender
+
+* For male participants, average finishing times generally improved between **2010 and 2014**, followed by a decline in performance (higher finishing times) between **2015 and 2017**.
+* Female participants exhibited a similar initial improvement; however, finishing times began increasing noticeably after **2014**, with a substantial increase of approximately **310 seconds**.
+* Additionally, **2017 stands out as a relatively poor performance year across multiple age groups**, with higher average finish times observed throughout the dataset. Further investigation would be required to identify the factors contributing to this trend.
+
+### Race-Level Analysis
+
+- The top 5 races by participant count all exhibit right-skewed finishing-time distributions.
+- Among these races, the Marine Corps Marathon shows the highest average finishing time.
+
+### Participation Trends
+
+- Participation peaked in 2013 before steadily declining through 2019.
+- Male and female participation followed similar patterns:
+  - Growth from 2010 to 2011
+  - Significant increase in 2012
+  - Peak participation in 2013
+  - Consistent decline from 2014 to 2019
+- More than 1,700 elite runners participated across the 10-year period.
+
 ### Data Quality Observation
 
 * A notable inconsistency was found in the **Nike Women's Marathon**, where **1,565 male participants** were recorded.
@@ -46,11 +68,14 @@
   * Unofficial participants
   * Incorrect race naming or labeling in the dataset
 
-### Time Trends by Gender
+## Limitations
 
-* For male participants, average finishing times generally improved between **2010 and 2014**, followed by a decline in performance (higher finishing times) between **2015 and 2017**.
-* Female participants exhibited a similar initial improvement; however, finishing times began increasing noticeably after **2014**, with a substantial increase of approximately **310 seconds**.
-* Additionally, **2017 stands out as a relatively poor performance year across multiple age groups**, with higher average finish times observed throughout the dataset. Further investigation would be required to identify the factors contributing to this trend.
+- The dataset does not contain a unique runner identifier.
+- Performance analysis across multiple years can only be performed using participant names.
+- Using names introduces ambiguity because:
+  - Different runners may share the same name.
+  - A runner's name may be recorded with spelling variations across races or years.
+- As a result, longitudinal athlete-level analysis may contain inaccuracies.
 
 ## Project Status
 
