@@ -59,6 +59,14 @@
   - Consistent decline from 2014 to 2019
 - More than 1,700 elite runners participated across the 10-year period.
 
+### Player Analysis
+
+- So here we trcaked a list of players who participated in races for more than 5 years. After looking at there median time for each year we came to the conclusion that the projectile trajectory was showing a genereal decline.
+- Now look at the trend itself:
+  - 2010 to 2012: times got faster (15047 → 14881)
+  - 2012 to 2017: times steadily got slower (14881 → 15736)
+  - 2017 to 2019: slight recovery (15736 → 15414)
+
 ### Data Quality Observation
 
 * A notable inconsistency was found in the **Nike Women's Marathon**, where **1,565 male participants** were recorded.
