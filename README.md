@@ -31,6 +31,9 @@
 
 * The **80+ age group recorded its slowest average finish time in 2018**, followed by an improvement in 2019. These fluctuations may be influenced by factors such as weather conditions, race-day circumstances, or differences in participant composition across years.
 
+* Runners in the 20–40 age group recorded the fastest and most consistent finish times across races.
+This age range appears to represent the peak performance window, combining both speed and consistency.
+
 
 ### Marathon-Level Analysis
 
@@ -48,6 +51,14 @@
 
 - The top 5 races by participant count all exhibit right-skewed finishing-time distributions.
 - Among these races, the Marine Corps Marathon shows the highest average finishing time.
+
+### Race Course Analysis
+
+- The Moab Trail Marathon, Equinox Marathon, and Nike Women's Marathon recorded the highest average finish times among the races analyzed.
+- The high average finish time for the Moab Trail Marathon likely reflects the challenging nature of trail running, while the Nike Women's Marathon average may be influenced by its female-only participant base. The Equinox Marathon also exhibits a high average finish time (~20,804 seconds), which is consistent with its demanding elevation profile.
+- Although the average finish times of the Equinox Marathon (~20,804s) and Nike Women's Marathon (~19,072s) are relatively close, the Equinox Marathon shows nearly three times the variance. This suggests that while the course is consistently challenging, runners experience a much wider range of outcomes, likely due to differences in how participants handle the terrain and elevation.
+- Both of those curves are slighty right skewed suggesting the tail represents the slower finishers dragging the curve out. Nike's curve looks slightly more compact through the bulk of the distribution; Equinox's bulk is shifted right and stretched out more, which is consistent with it being a tougher or more variable course.
+- Earlier we were determined to announce Equinox must have been harder than Nike Womens marthon but now we looked into the participation which was 1723 and 18335 respectively, which could be another reason for wider variance. Variance alone is a weak difficulty signal unless you account for field size.
 
 ### Participation Trends
 
@@ -94,6 +105,6 @@ Current progress:
 - Missing values analyzed
 - Duplicate records removed
 - Initial EDA completed
-- Further analysis and visualizations in progress
+- Advanced analysis and visualizations in progress
 
 
